@@ -97,6 +97,12 @@ curl -H "x-api-key: valid-api-key" "http://localhost:3000/token/info?tokenId=bit
     "platforms": { ...
 }
 
+{
+    "message": "Rate limit exceeded",
+    "error": "Bad Request",
+    "statusCode": 400
+}
+
 ```
 
 ## Test
